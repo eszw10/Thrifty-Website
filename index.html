@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <script src="https://kit.fontawesome.com/621e2dd331.js" crossorigin="anonymous"></script>
+    <title>Thrifty.com</title>
+</head>
+<body>
+    <span id="head"></span>
+    <header>
+        <nav>
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <img src="/images/Thrifty.png" alt="Logo Thrifty" style="width: 170px;">
+            <ul>
+                <li><a href="#head">Dashboard</a></li>
+                <li><a href="#fitur">Fitur</a></li>
+                <li><a href="#aboutUs">Tentang Kami</a></li>
+            </ul>
+            <button id="btn">Contact</button>
+        </nav>
+    </header>
+    <main>
+        <div class="konten">
+            <article id="dashboard">
+                <div class="flex-column">
+                    <h2>Lagi cari pakaian second? Thrifty-in aja!</h2>
+                    <p>Thrifty adalah platform yang tepat bagi kamu untuk mencari pakaian bekas dengan kualitas terbaik dan harga yang terjangkau!</p>
+                    <div class="flex-row">
+                        <button id="start">Mulai</button>
+                        <button id="learn">Pelajari Selengkapnya</button>
+                    </div>
+                </div>
+                <img src="/images/dashboardpic.jpg" alt="Dashboard-picture">
+            </article>
+            <article id="fitur">
+                <div class="pembuka flex-column">
+                    <h2>Fitur</h2>
+                    <p>Dengan fitur yang Thrifty punya, kamu bisa dapatkan pakaian second dengan kualitas terbaik dan harga yang sangat terjangkau!</p>
+                </div>
+                <section class="fitur1 fitur-row flex-row">
+                    <img src="/images/fitur-1.jpg" alt="fitur-1" style="width: 350px; margin-right: 20px;">
+                    <div class="fitur-column flex-column">
+                        <h3>Cek Kondisi Pakaian</h3>
+                        <p>Kamu tidak akan menemukan kondisi pakaian yang kurang baik di Thrifty. Nggak percaya? Cek dulu aja kondisi pakaiannya sebelum kamu beli!</p>
+                    </div>
+                </section>
+                <section class="fitur2 fitur-row flex-row">
+                    <div class="fitur-column flex-column" style="justify-content: flex-end;align-items: flex-end;">
+                        <h3>Chat Penjual</h3>
+                        <p>Kamu sering trust issues ketika ingin membeli pakaian second? Atasi masalahmu itu dengan chat langsung untuk tes kepercayaanmu terhadap penjual!</p>
+                    </div>
+                    <img src="/images/fitur-2.jpg" alt="fitur-2" style="width: 436px;">
+                </section>
+                <section class="fitur3 fitur-row flex-row">
+                    <img src="/images/fitur-3.jpg" alt="fitur-3" style="width: 295px; margin-right: 20px;">
+                    <div class="fitur-column flex-column">
+                        <h3>Transaksi Tanpa Ribet</h3>
+                        <p>Sudah cek kondisi dan chat penjual, selanjutnya apa? Langsung aja transaksi tanpa ribet di Thrifty!</p>
+                    </div>
+                </section>
+            </article>
+            <article id="contactUs">
+                <h2>Contact Us</h2>
+                <div class="contactUs-row flex-row">
+                    <div class="profile flex-column">
+                        <section class="alamat flex-row">
+                            <div class="lingkaran">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <p>Jl.Sigura-gura VI No.5c, Kec.Lowokwaru, Malang</p>
+                        </section>
+                        <section class="email flex-row">
+                            <div class="lingkaran">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <p>erycszw10@gmail.com</p>
+                        </section>
+                        <section class="noHp flex-row">
+                            <div class="lingkaran">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <p>+6289-603-776-545</p>
+                        </section>
+                    </div>
+                    <form class="flex-column">
+                        <input type="text" placeholder="Nama.."  required placeholder="Masukkan nama anda" id="fullName">
+                        <div class="emailNum flex-row">
+                            <input type="email" placeholder="Email.." required placeholder="Masukkan email anda" id="email">
+                            <input type="text" placeholder="Nomor Telepon.." required placeholder="Masukkan Nomor Telepon anda" id="noTelp">
+                        </div>
+                        <textarea cols="30" rows="10" placeholder="Ketik pesan anda.." id="pesan"></textarea>
+                        <button id="kirim">Submit</button>
+                    </form>
+                </div>
+            </article>
+        </div>
+        <aside>
+            <article id="aboutUs" class="flex-column">
+                <h2>Tentang Kami</h2>
+                <p style="margin-top: 10px;">Website ini dibuat oleh :</p>
+                <section class="profileCard flex-column" style="margin-top: -10px;">
+                    <img src="/images/ProfilePic.png" alt="Profilepic">
+                    <p id="role">Front-End Web Developer</p>
+                    <p id="namaProfil" style="text-align: center;">Erycson Zulkarnain Wijaya</p>
+                    <p style="text-align: justify; margin-top: -20px;">
+                        Saya adalah Mahasiswa Universitas Brawijaya
+                        pada Fakultas Ilmu Komputer Prodi Teknik Informatika. Saya sangat tertarik dengan dunia web development
+                        terutama di bidang Front-End. 
+                    </p>
+                </section>
+                </header>
+            </article>
+        </aside>
+    </main>
+    <footer class="flex-row">
+        <img src="/images/Thrifty.png" alt="logo-pic">
+        <div class="copyright">
+            <i class="fa-solid fa-copyright"></i>
+            <p style="display: inline;">Thrifty 2022. All right reserved.</p>
+        </div>
+        <div class="sosmed" style="color: #14C38E;;">
+            <i class="fa-brands fa-whatsapp" onclick=""></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+    </footer>
+    <script src="/assets/script.js"></script>
+</body>
+</html>
+<!--Code created by : Erycson Z.W-->
